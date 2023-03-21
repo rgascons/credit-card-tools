@@ -10,5 +10,7 @@ module.exports = {
     project: './tsconfig.json'
   },
   rules: {
-  }
+    'import/prefer-default-export': 'off'
+  },
+  ignorePatterns: ['.eslintrc.js', 'jest.config.js']
 }
